@@ -1,0 +1,16 @@
+#greycol {
+  color: gray;
+}
+div > div > p {
+  color: red;
+}
+
+p:last-of-type.yellow {
+  color: yellow;
+}
+h3:first-child {
+  color: pink;
+}
+p:not(:first-of-type) {
+  color: green;
+}
